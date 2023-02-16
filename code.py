@@ -1,5 +1,3 @@
-
-
 from time import strftime
 import speech_recognition as sr
 import pyttsx3 
@@ -15,9 +13,6 @@ engine.setProperty('voice', voices[1].id)
 engine.say('i am your assistant')
 engine.say('how may i help you')
 engine.runAndWait()
-
-
-
 
 def talk(text):
     engine.say(text)
